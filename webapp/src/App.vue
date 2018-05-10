@@ -1,28 +1,25 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <Toobal/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import SignIn from './components/SignIn'
+import Flex from './components/Flex'
+import Grib from './components/Grib'
+import Toobal from './components/Toolbar'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SignIn,
+    Flex,
+    Grib,
+    Toobal,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
